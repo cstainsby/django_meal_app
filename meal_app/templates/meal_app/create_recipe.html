@@ -1,0 +1,9 @@
+{% extends "meal_app.html" %}
+
+{% content view %}
+<h3>Create Recipe</h3>
+<form method="post" action="/create/">
+  {{form}}
+  <button type="submit", name="submit">Submit</button>
+</form>
+{% end content view %}
